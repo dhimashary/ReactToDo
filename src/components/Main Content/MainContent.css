@@ -1,0 +1,58 @@
+.container {
+  padding: 5px 100px;
+  box-sizing: border-box;
+}
+
+.bg-azure {
+  background-color: azure;
+}
+
+.ToDoContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar {
+  width: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.navbar ul {
+  display: flex;
+  width: 100%;
+}
+
+.navbar li {
+  text-decoration: none;
+  list-style: none;
+  margin: 3px 10px;
+  font-size: 1.5em
+}
+
+.navbar li:hover,
+.navbar li.active
+ {
+  color: rgb(0, 89, 255);
+  cursor: pointer;
+}
+
+
+.fullcontainer {
+  width: 100%;
+}
+
+@media(max-width: 500px) {
+  .container {
+    padding: 0;
+  }
+}
+
+@media(max-width:768px) {
+  .ToDoContent {
+    display: block;
+  }
+}

@@ -1,0 +1,96 @@
+.cardController {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.goRight {
+  margin-left: auto;
+}
+
+.btnControl {
+  padding: 10px;
+}
+
+.buttonMargin{
+  margin-left: 15px;
+}
+
+.btn-danger {
+  font-weight: bold;
+  background-color: rgb(248, 243, 241);
+  border-color: rgb(236, 69, 39);
+  border-style: solid;
+  color: rgb(236, 69, 39);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-danger:hover {
+  background-color: rgb(236, 69, 39);
+  color: rgb(248, 243, 241);
+}
+
+.btn-working {
+  background-color: rgb(248, 243, 241);
+  border-color: rgb(26, 202, 143);
+  border-style: solid;
+  color: rgb(26, 202, 143);
+  padding: 15px 15px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-working:hover {
+  background-color: rgb(26, 202, 143);
+  color: rgb(248, 243, 241);
+}
+
+.btn-finish {
+  font-weight: bold;
+  background-color: rgb(248, 243, 241);
+  border-color: rgb(228, 115, 238);
+  border-style: solid;
+  color: rgb(228, 115, 238);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-finish:hover {
+  background-color: rgb(228, 115, 238);
+  color: rgb(248, 243, 241);
+}
+
+.btn-starting {
+  font-weight: bold;
+  background-color: rgb(248, 243, 241);
+  border-color: rgb(236, 190, 130);
+  border-style: solid;
+  color: rgb(236, 190, 130);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-starting:hover {
+  background-color: rgb(236, 190, 130);
+  color: rgb(248, 243, 241);
+}

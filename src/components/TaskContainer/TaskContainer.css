@@ -1,0 +1,39 @@
+.TodoList {
+  flex: 1 1 0;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: antiquewhite;
+}
+
+.working {
+  background-color: aquamarine;
+  margin-right:20px; 
+  margin-left: 20px;
+}
+
+.finish {
+  background-color: rgb(228, 115, 238);
+}
+
+.TodoList:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.TodoContainer {
+  padding: 20px 16px;
+}
+
+.centered{
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+}
+
+@media(max-width: 767px) {
+  .working {
+    background-color: aquamarine;
+    margin-right:0px; 
+    margin-left: 0px;
+  }
+}
